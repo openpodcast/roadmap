@@ -1,9 +1,9 @@
-name: Auto Assign to Project
+name: Auto Assign to Project(s)
 
 on:
   issues:
     types: [opened, labeled]
-  pull_request:
+  pull_request_target:
     types: [opened, labeled]
   issue_comment:
     types: [created]
@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Assign to One Project
     steps:
-    - name: Assign issues and pull requests to project
+    - name: Assign NEW issues and NEW pull requests to project 2
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: github.event.action == 'opened'
       with:
-        project: 'https://github.com/orgs/openpodcast/projects/1'
-        column_name: 'Todo'
+        project: "https://github.com/orgs/openpodcast/projects/1"
+        column_name: "Todo"
