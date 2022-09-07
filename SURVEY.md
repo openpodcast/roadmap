@@ -6,6 +6,7 @@ This document can be used as a template while conducting interviews.
 
 --- 
 
+
 - [ ] Why did you start the podcast? What is your goal?
 - [ ] What is your target group and do you know your audience (demographics)?
 - [ ] What hosting platform do you use?
@@ -17,6 +18,8 @@ This document can be used as a template while conducting interviews.
 - [ ] What would improve your podcast publishing process? 
 - [ ] Where do you spend the most time? What step of the whole process (recording-publishing) is the most annoying one?
 - [ ] If we would offer to solve/automate one thing in your publishing process, what would you choose?
+- [ ] Would you pay for an aggregated analytics view and how much?
+- [ ] What question have we forgotten to answer?
 
 ---
 
